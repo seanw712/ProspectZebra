@@ -1,0 +1,66 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background frame -->
+  <rect x="10" y="10" width="380" height="280" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="10" y="10" width="380" height="40" rx="12" fill="#6B46C1" stroke="#E2E8F0" stroke-width="0"/>
+  <circle cx="30" cy="30" r="8" fill="#FC8181"/>
+  <circle cx="50" cy="30" r="8" fill="#F6E05E"/>
+  <circle cx="70" cy="30" r="8" fill="#68D391"/>
+  
+  <!-- Dashboard title -->
+  <text x="200" y="35" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Sales Dashboard</text>
+  
+  <!-- Left panel - metrics -->
+  <rect x="20" y="60" width="160" height="220" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- Metric 1 -->
+  <rect x="30" y="70" width="140" height="60" rx="6" fill="#F3EBFF"/>
+  <text x="40" y="90" font-family="Arial" font-size="12" fill="#6B46C1">Meetings Booked</text>
+  <text x="40" y="115" font-family="Arial" font-size="20" font-weight="bold" fill="#6B46C1">42</text>
+  <path d="M120 115 L130 105 L140 110 L150 95 L160 100" stroke="#38B2AC" stroke-width="2" fill="none"/>
+  
+  <!-- Metric 2 -->
+  <rect x="30" y="140" width="140" height="60" rx="6" fill="#F3EBFF"/>
+  <text x="40" y="160" font-family="Arial" font-size="12" fill="#6B46C1">Response Rate</text>
+  <text x="40" y="185" font-family="Arial" font-size="20" font-weight="bold" fill="#6B46C1">28%</text>
+  <path d="M120 185 L130 175 L140 180 L150 170 L160 165" stroke="#38B2AC" stroke-width="2" fill="none"/>
+  
+  <!-- Metric 3 -->
+  <rect x="30" y="210" width="140" height="60" rx="6" fill="#F3EBFF"/>
+  <text x="40" y="230" font-family="Arial" font-size="12" fill="#6B46C1">Conversion Rate</text>
+  <text x="40" y="255" font-family="Arial" font-size="20" font-weight="bold" fill="#6B46C1">12%</text>
+  <path d="M120 255 L130 250 L140 245 L150 240 L160 230" stroke="#38B2AC" stroke-width="2" fill="none"/>
+  
+  <!-- Right panel - chart -->
+  <rect x="190" y="60" width="190" height="220" rx="8" fill="white" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- Chart title -->
+  <text x="285" y="80" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#4A5568">Monthly Performance</text>
+  
+  <!-- Chart axes -->
+  <line x1="210" y1="240" x2="360" y2="240" stroke="#CBD5E0" stroke-width="1"/>
+  <line x1="210" y1="240" x2="210" y2="100" stroke="#CBD5E0" stroke-width="1"/>
+  
+  <!-- Chart data -->
+  <path d="M210 220 L240 200 L270 210 L300 180 L330 150 L360 130" stroke="#6B46C1" stroke-width="3" fill="none"/>
+  <circle cx="210" cy="220" r="4" fill="#6B46C1"/>
+  <circle cx="240" cy="200" r="4" fill="#6B46C1"/>
+  <circle cx="270" cy="210" r="4" fill="#6B46C1"/>
+  <circle cx="300" cy="180" r="4" fill="#6B46C1"/>
+  <circle cx="330" cy="150" r="4" fill="#6B46C1"/>
+  <circle cx="360" cy="130" r="4" fill="#6B46C1"/>
+  
+  <!-- Chart labels -->
+  <text x="210" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#718096">Jan</text>
+  <text x="240" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#718096">Feb</text>
+  <text x="270" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#718096">Mar</text>
+  <text x="300" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#718096">Apr</text>
+  <text x="330" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#718096">May</text>
+  <text x="360" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#718096">Jun</text>
+  
+  <!-- Zebra logo watermark -->
+  <g opacity="0.1" transform="translate(320, 70) scale(0.8)">
+    <path d="M8 10 L32 10 L28 15 L32 20 L28 25 L32 30 L8 30 L12 25 L8 20 L12 15 Z" fill="#6B46C1"/>
+  </g>
+</svg> 

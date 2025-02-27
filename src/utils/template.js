@@ -1,4 +1,10 @@
-function getPageHtml(title, content) {
+const partialsUtils = require('./partials');
+
+async function getPageHtml(title, content) {
+    // Get partials
+    const navigation = await partialsUtils.getPartial('navigation');
+    const footer = await partialsUtils.getPartial('footer');
+    
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -9,21 +15,11 @@ function getPageHtml(title, content) {
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <nav>
-            <div class="nav-container">
-                <a href="/" class="logo">ProspectZebra</a>
-                <div class="nav-links">
-                    <a href="/">Home</a>
-                    <a href="/contact">Contact</a>
-                </div>
-            </div>
-        </nav>
+        ${navigation}
         <main>
             ${content}
         </main>
-        <footer>
-            <p>&copy; ${new Date().getFullYear()} ProspectZebra. All rights reserved.</p>
-        </footer>
+        ${footer}
         <script src="/js/main.js"></script>
     </body>
     </html>
