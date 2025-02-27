@@ -1,0 +1,59 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="240" height="240" rx="120" fill="#F9F5FF" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="120" cy="120" r="100" fill="#F0EBFF" />
+  <path d="M40 120C40 75.8172 75.8172 40 120 40V40C164.183 40 200 75.8172 200 120V120C200 164.183 164.183 200 120 200V200C75.8172 200 40 164.183 40 120V120Z" stroke="#D8B4FE" stroke-width="2" stroke-dasharray="6 4" />
+  
+  <!-- Left Side - Manual Process -->
+  <rect x="50" y="100" width="60" height="40" rx="8" fill="white" stroke="#EF4444" stroke-width="2" />
+  <path d="M60 115H100" stroke="#EF4444" stroke-width="2" stroke-linecap="round" />
+  <path d="M60 125H90" stroke="#EF4444" stroke-width="2" stroke-linecap="round" />
+  <circle cx="65" cy="105" r="3" fill="#EF4444" />
+  
+  <!-- Right Side - Automated Process -->
+  <rect x="130" y="100" width="60" height="40" rx="8" fill="white" stroke="#8B5CF6" stroke-width="2" />
+  <path d="M140 115H180" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" />
+  <path d="M140 125H170" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" />
+  <circle cx="145" cy="105" r="3" fill="#8B5CF6" />
+  
+  <!-- Center Automation Element -->
+  <circle cx="120" cy="120" r="20" fill="white" stroke="#8B5CF6" stroke-width="2" />
+  <path d="M120 110V130" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" />
+  <path d="M110 120H130" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Connection Lines -->
+  <path d="M110 120H80" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 2" />
+  <path d="M160 120H130" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 2" />
+  
+  <!-- Decorative Gear Elements -->
+  <g opacity="0.7">
+    <circle cx="120" cy="70" r="12" fill="#D8B4FE" />
+    <path d="M120 64V76" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M114 70H126" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <g opacity="0.7">
+    <circle cx="70" cy="160" r="10" fill="#D8B4FE" />
+    <path d="M70 155V165" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M65 160H75" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <g opacity="0.7">
+    <circle cx="170" cy="160" r="10" fill="#8B5CF6" />
+    <path d="M170 155V165" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M165 160H175" stroke="white" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Accent Elements -->
+  <circle cx="50" cy="90" r="6" fill="#FF6B00" opacity="0.7" />
+  <circle cx="190" cy="90" r="6" fill="#FF6B00" opacity="0.7" />
+  <circle cx="120" cy="180" r="8" fill="#FF6B00" opacity="0.7" />
+  
+  <!-- Small Decorative Dots -->
+  <circle cx="90" cy="70" r="3" fill="#8B5CF6" opacity="0.5" />
+  <circle cx="150" cy="70" r="3" fill="#8B5CF6" opacity="0.5" />
+  <circle cx="90" cy="170" r="3" fill="#8B5CF6" opacity="0.5" />
+  <circle cx="150" cy="170" r="3" fill="#8B5CF6" opacity="0.5" />
+</svg> 
